@@ -1,4 +1,5 @@
 
+DOTFILE_LOCATION=$(PWD)
 
 # Create symlinks
-ln -nfs $HOME/dotfiles/.zshrc $HOME/.zshrc
+ln -nfs $DOTFILE_LOCATION/.zshrc $HOME/.zshrc
